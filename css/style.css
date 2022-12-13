@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to right ,rgb(46, 46, 150),rgb(44, 104, 172));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+#weather{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+.weather-report{
+    color: #fff;
+}
+.weather-report h2 , h3{
+    font-size: 40px;
+}
+#search{
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 30px;
+}
